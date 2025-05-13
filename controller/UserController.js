@@ -12,7 +12,7 @@ exports.getAllUsers = async (req, res) => {
 
 exports.getById = async (req, res) => {
   try {
-    const users = await Users.getById(req.params.id);
+    const users = await User.getUserById(req.params.id);
     if (!users) {
       return res.status(404).json({ error: "Không tìm thấy khách hàng" });
     }

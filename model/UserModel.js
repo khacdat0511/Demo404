@@ -1,4 +1,4 @@
-const db = require('../ultis/ConnectDB');
+const db = require('../utils/ConnectDB.js');
 
 const getAllUsers = async () => {
     try {
