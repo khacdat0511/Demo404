@@ -1,0 +1,6 @@
+PORT = 5000
+DB_HOST = 
+DB_USER = 
+// sửa lại DB_PASSWORD
+DB_PASSWORD =  
+DB_NAME = 
